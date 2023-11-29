@@ -12,9 +12,9 @@ The ESystem class can be used to "query" entities given their components.
 
 We can use the ESystem class to query entities within the system. 
 A union query like: 
-    ```
+```
       ESystem.queryByUnion("Health") 
-     ```
+```
 would return both the Player and Enemy entity classes, since they both have the "Health" component. 
 
 A intersection query like: 
